@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_setting"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".view.fragment.SettingFragment">
+
+
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:text="Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <LinearLayout
+        android:background="@drawable/button_retangle"
+        android:layout_marginTop="10dp"
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_setting" />
+
+        <TextView
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="App settings" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="@drawable/button_retangle"
+        android:layout_marginTop="10dp"
+        android:id="@+id/clear_cache"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_clear_cache" />
+
+        <TextView
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear cache" />
+    </LinearLayout>
+
+    <TextView
+        android:text="Other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        />
+    <LinearLayout
+        android:background="@drawable/button_retangle"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rate_app"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_rate" />
+
+        <TextView
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rate App" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/button_retangle"
+        android:layout_marginTop="10dp"
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_feedback" />
+
+        <TextView
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feedback" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/button_retangle"
+        android:layout_marginTop="10dp"
+        android:id="@+id/more_app"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_more" />
+
+        <TextView
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More App" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/button_retangle"
+        android:layout_marginTop="10dp"
+        android:id="@+id/share_app"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_sharre" />
+
+        <TextView
+            android:background="@android:color/transparent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share" />
+    </LinearLayout>
+</LinearLayout>

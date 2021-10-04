@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/action_home"
+    android:id="@+id/main_nav">
+    <fragment
+        android:id="@+id/action_home"
+        android:name="com.poly.animewallpaper.view.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/action_favourite"
+        android:name="com.poly.animewallpaper.view.fragment.FavoriteFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_favorite">
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/action_setting"
+        android:name="com.poly.animewallpaper.view.fragment.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting">
+
+
+    </fragment>
+</navigation>
